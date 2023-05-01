@@ -86,6 +86,10 @@ TEMPLATES = [
     },
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'railwaydeploy-production-8974.up.railway.app'
+]
+
 WSGI_APPLICATION = 'project.wsgi.application'
 
 

@@ -68,6 +68,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://railwaydeploy-production-8974.up.railway.app/'
+]
+
+
 ROOT_URLCONF = 'project.urls'
 
 TEMPLATES = [
@@ -86,9 +91,6 @@ TEMPLATES = [
     },
 ]
 
-CSRF_TRUSTED_ORIGINS = [
-    'railwaydeploy-production-8974.up.railway.app'
-]
 
 WSGI_APPLICATION = 'project.wsgi.application'
 

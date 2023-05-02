@@ -41,7 +41,7 @@ DEFAULT_FROM_EMAIL = "Estrada.Meza.Rene.99@gmail.com"
 
 # EMAIL_FILE_PATH = BASE_DIR / 'emails'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['railwaydeploy-production-8974.up.railway.app']
 
 
 # Application definition
@@ -69,7 +69,7 @@ MIDDLEWARE = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://railwaydeploy-production-8974.up.railway.app/'
+    'https://railwaydeploy-production-8974.up.railway.app'
 ]
 
 
